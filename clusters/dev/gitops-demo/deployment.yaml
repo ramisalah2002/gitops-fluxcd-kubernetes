@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gitops-demo
+  name: gitops-demo-v2
   namespace: default
 spec:
   replicas: 1
