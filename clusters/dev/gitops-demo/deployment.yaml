@@ -12,6 +12,8 @@ spec:
     metadata:
       labels:
         app: gitops-demo
+      annotations:
+        redeploy-at: "2026-01-21T11:40:00"
     spec:
       containers:
         - name: gitops-demo
