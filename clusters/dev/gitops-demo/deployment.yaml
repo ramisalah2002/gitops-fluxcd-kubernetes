@@ -13,10 +13,11 @@ spec:
       labels:
         app: gitops-demo
       annotations:
-        redeploy-at: "2026-01-21T11:40:00"
+        redeploy-at: "2026-01-21T11:43:00"
     spec:
       containers:
         - name: gitops-demo
           image: gitops-demo:2.0.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
