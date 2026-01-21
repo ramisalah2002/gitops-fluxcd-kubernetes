@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: gitops-demo:1.0.1
+          image: gitops-demo:2.0.0
           ports:
             - containerPort: 8080
